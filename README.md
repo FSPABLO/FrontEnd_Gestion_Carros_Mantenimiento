@@ -45,7 +45,7 @@ cr.ac.una.Main -> punto de entrada (abre LoginView)
 
 1. Abre el proyecto (IntelliJ/Eclipse) y usa **SDK 21**.
 2. Ajusta host/puertos si lo necesitas en `LoginController.openMainView()` (por defecto `localhost:7070` y `7001`).
-3. Ejecuta `cr.ac.una.Main` → se abre **Login**.
+3. Ejecuta `Main` → se abre **Login**.
 
 ---
 
@@ -63,10 +63,3 @@ cr.ac.una.Main -> punto de entrada (abre LoginView)
 - **“Unknown controller”**: usa exactamente `"Maintenance"` (sin “s”) en `RequestDto.controller`.
 - **Enum inválido**: el tipo debe ser **REPAIR / MOD / ROUTINE**.
 - **Imports en rojo**: selecciona **Project SDK 21** y sincroniza dependencias (Gson).
-
----
-
-## 🗺️ Roadmap breve
-- Paginación/ordenamiento de tablas.
-- Validaciones y notificaciones más amigables.
-- Manejo de sesión/token real desde login.
